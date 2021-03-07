@@ -1,0 +1,6 @@
+<!--pages/details10/details10.wxml-->
+<view class="container">
+  <image  src='/pics/1.png'></image>
+  <image  src='/pics/2.png'></image>
+  <image  src='/pics/3.png'></image>
+</view>

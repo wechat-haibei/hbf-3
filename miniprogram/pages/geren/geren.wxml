@@ -1,0 +1,20 @@
+<view class="user_info_wrap">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <view class="user_img_wrap">
+      <image class="user_bg" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class="user_info">
+      <image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+      </view>
+      </view>
+    </block>
+</view>
+<view class="page">
+    <view class="page__bd">
+        <mp-cell link url="../feedback/feedback" hover value="意见反馈" >
+        </mp-cell>
+        <mp-cell link url="../details2/details" hover value="关于我们" >
+        </mp-cell>
+    </view>
+</view>

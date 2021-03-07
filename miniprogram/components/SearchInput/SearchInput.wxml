@@ -1,0 +1,5 @@
+<view class="search_input">
+ <navigator url="/pages/search/index" open-type="navigate">
+  <image src = "./sousuo.png" style="width:20px;height:20px;"></image> 点击搜索
+  </navigator>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/news/news.wxml-->
+<view class="news">
+<view wx:for='{{news}}' wx:key='id'>
+  <text class="title">{{item.title}}</text>
+  <text class="details">{{item.details}}</text>
+</view>
+</view>

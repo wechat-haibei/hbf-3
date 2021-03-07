@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "搜索中心",
+          "pathName": "pages/search/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人",
+          "pathName": "pages/geren/geren",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "denglu",
+          "pathName": "pages/login/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "搜索那",
+          "pathName": "pages/search/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+buttton{
+  margin-top: 100rpx;
+  width: 70%;
+}

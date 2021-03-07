@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/geren/geren",
+    "pages/massage/massage",
+    "pages/search/index",
+    "pages/login/index",
+    "pages/news/news",
+    "pages/feedback/feedback"
+  ],
+  "plugins": {
+    "chatbot": {
+      "version": "1.2.11",
+      "provider": "wx8c631f7e9f2465e1"
+    },
+    "WechatSI": {
+      "version": "0.3.4",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ACD6FF",
+    "navigationBarTitleText": "海贝分",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#4F4F4F",
+    "selectedColor": "#97CBFF",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pics/shouyetianchong.png",
+        "selectedIconPath": "pics/shouyetianchong_s.png"
+      },
+      {
+        "pagePath": "pages/massage/massage",
+        "text": "聊天",
+        "iconPath": "pics/duihuaxinxitianchong.png",
+        "selectedIconPath": "pics/duihuaxinxitianchong_s.png"
+      },
+      {
+        "pagePath": "pages/geren/geren",
+        "text": "个人",
+        "iconPath": "pics/yonghutianchong.png",
+        "selectedIconPath": "pics/yonghutianchong_s.png"
+      }
+    ]
+  }
+}

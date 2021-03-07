@@ -1,0 +1,77 @@
+<view class = "contain">
+  <image class="background" src="./background.jpg" mode="aspectFill"></image>
+ <view class= "search" bindtap="search" bindtap="logsearch">
+  <SearchInput></SearchInput></view>
+
+  <button class="haihai" plain="true" bindtap="logbtn">
+   <image src="./haihai.png" mode="widthFix" style="width:150px;"></image>
+ </button>
+
+ <scroll-view class="view">
+  <!-- 第二部分-->
+  <view class='selection'>
+    <!-- 头部文字 -->
+    <view class="header">
+      <text style='margin-left: 5px;'>海贝分相关文档</text>
+      <text class='all'>Document</text>
+    </view>
+    <!-- 内容 -->
+    <view class='content'>
+      <view class='content-item'>
+        <image src="./mulu.png" class="slide-image" mode='scaleToFill'></image>
+        <navigator url="../details1/details1">
+        <view class='content-item-title'>
+          <text>简介</text>
+        </view>
+       </navigator>
+      </view>
+      <view class='content-item' >
+        <image src="./wendang.png" class="slide-image" mode='scaleToFill'></image>
+        <navigator url="../details2/details2">
+        <view class='content-item-title'>
+          <text>信用积分和信用</text>
+          <text>评价管理办法</text>
+        </view>
+        </navigator>
+      </view>
+      <view class='content-item'>
+        <image src="./wendang.png" class="slide-image" mode='scaleToFill'></image>
+        <navigator url="../details3/details3">
+        <view class='content-item-title'>
+          <text>个人信用信息评价标准</text>
+        </view>
+        </navigator>
+      </view>
+      <view class='content-item'>
+        <image src="./wendang.png" class="slide-image" mode='scaleToFill'></image>
+        <navigator url="../details4/details4">
+        <view class='content-item-title'>
+          <text>社会法人信用</text>
+          <text>信息评价标准</text>
+        </view>
+        </navigator>
+      </view>
+      <view class='content-item'>
+        <image src="./wendang.png" class="slide-image" mode='scaleToFill'></image>
+        <navigator url="../details5/details5">
+        <view class='content-item-title'>
+          <text>五进文件</text>
+        </view>
+        </navigator>
+      </view>
+      <view class='content-item'>
+        <image src="./biaoge.png" class="slide-image" mode='scaleToFill'></image>
+        <navigator url="../details6/details6">
+        <view class='content-item-title'>
+          <text>信息采集流程</text>
+        </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+</view>
+<view class="page">
+    <view class="page__bd">
+    </view>
+</view>

@@ -1,0 +1,6 @@
+<!--miniprogram/pages/feedback/feedback.wxml-->
+<view class="container">
+  <image src="./feedback.png" mode="widthFix" style="width:50%"></image>
+  <view style="height:20px"></view>
+  <button class="button" open-type="feedback">点击进行反馈</button>
+</view>
