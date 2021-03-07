@@ -48,6 +48,8 @@
 
 ## 项目展示
 
-## ![show1](C:\Users\wypwy\Desktop\王云平组\项目说明\show1.png)
+![show1](https://raw.githubusercontent.com/wechat-haibei/hbf-3/master/a1.jpg)
 
-![show2](C:\Users\wypwy\Desktop\王云平组\项目说明\show2.png)
+![show2](https://raw.githubusercontent.com/wechat-haibei/hbf-3/master/a2.jpg)
+
+![show2](https://raw.githubusercontent.com/wechat-haibei/hbf-3/master/a3.jpg)
